@@ -36,3 +36,4 @@ problem now is figuring out how to center the project with using some html work 
 col1,col2.col3 method.
 
 now the next problem is to figure out how to host this project so its useable
+still working on trying to host this project. will come back to work on a soultion
