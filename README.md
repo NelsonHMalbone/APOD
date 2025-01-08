@@ -25,3 +25,12 @@ a flask version.
 my plans for this is to have you click a button in it will
 shop you to the app page with the img, text and other infomation
 
+---
+
+## Problems
+
+getting the config file to work correctly so i can hide 
+the api key. solve it with config.py i was forgetting to import the file
+
+problemnow is figuring out how to center the project with using some html work or using the 
+col1,col2.col3 method.
