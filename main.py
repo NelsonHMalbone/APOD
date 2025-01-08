@@ -1,4 +1,4 @@
-import config
+from config import api_key
 import streamlit as st
 import requests
 
@@ -6,7 +6,7 @@ import requests
 st.title(' Astronomy Picture of the Day')
 
 # requesting the website
-url = f'https://api.nasa.gov/planetary/apod?api_key={config.api_key}'
+url = f'https://api.nasa.gov/planetary/apod?api_key={api_key}'
 response = requests.get(url)
 content = response.json()
 

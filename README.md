@@ -32,5 +32,7 @@ shop you to the app page with the img, text and other infomation
 getting the config file to work correctly so i can hide 
 the api key. solve it with config.py i was forgetting to import the file
 
-problemnow is figuring out how to center the project with using some html work or using the 
+problem now is figuring out how to center the project with using some html work or using the 
 col1,col2.col3 method.
+
+now the next problem is to figure out how to host this project so its useable
