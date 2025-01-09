@@ -11,9 +11,10 @@ response = requests.get(url)
 content = response.json()
 
 # streamlit website functions
-col1,col2,col3 = st.columns(3)
+
 st.header(f'{content["title"]}')
 
+col1,col2,col3 = st.columns(3)
 # setting up a way to center the date
 with col1:
     st.write("")
@@ -22,5 +23,12 @@ with col2:
 with col3:
     st.write("")
 
-st.image(f'{content["url"]}')
+
+with col1:
+    st.write("")
+with col2:
+    st.image(f'{content["url"]}', width=450)
+with col3:
+    st.write("")
+
 st.write(f'Explanation: {content["explanation"]}')
