@@ -14,21 +14,10 @@ content = response.json()
 
 st.header(f'{content["title"]}')
 
-col1,col2,col3 = st.columns(3)
+
 # setting up a way to center the date
-with col1:
-    st.write("")
-with col2:
-    st.write(f'Date: {content["date"]}')
-with col3:
-    st.write("")
 
+st.image(f'{content["url"]}', caption=f"{content['date']}", width=400)
 
-with col1:
-    st.write("")
-with col2:
-    st.image(f'{content["url"]}', width=450)
-with col3:
-    st.write("")
 
 st.write(f'Explanation: {content["explanation"]}')
